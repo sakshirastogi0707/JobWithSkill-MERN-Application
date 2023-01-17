@@ -1,0 +1,71 @@
+.profile {
+  display: flex;
+}
+.ProfileWrapper {
+  flex: 9;
+  padding: 20px;
+}
+.profileTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profileUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: lightcoral;
+font-family: 'lora', serif;
+
+}
+.profileDeleteTitle {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+font-family: 'lora', serif;
+
+}
+.profileForm {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.profilePP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  /* border: 1px solid #573b8a; */
+  /* border-radius: 50px; */
+}
+.profilePP > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.profilePPIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: lightcoral;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.profileForm > label{
+font-size: 20px;
+margin-top: 20px;
+font-family: 'lora', serif;
+
+}
+.profileForm > input{
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+}
+ 

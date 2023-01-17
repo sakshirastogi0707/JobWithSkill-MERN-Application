@@ -1,0 +1,50 @@
+/* .hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar .dropdown-menu a:hover {
+  color: #573b8a !important;
+}
+.darken-grey-text {
+  color: #573b8a;
+}
+.UserProfile {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.borderImg {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid lightgray;
+  cursor: pointer;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.Applogo {
+  width: 60px;
+  height: 40px;
+}
+.navbar-nav .nav-item a {
+  font-weight: 600;
+}
+
+.navbar-nav .active a {
+  color: #573b8a;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}

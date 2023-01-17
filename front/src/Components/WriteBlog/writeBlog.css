@@ -1,0 +1,62 @@
+.WriteBlog{
+    padding: 50px;
+}
+.WriteBlogForm{
+align-items: center;
+justify-content: center;
+
+}
+.WriteBlogImg{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.WriteBlogGroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.AddIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(96, 93, 93);
+    cursor: pointer;
+}
+.writeInput{
+    font-size: 30x;
+    border: none;
+    padding: 20px;
+    width: 60vw;
+    
+}
+.writeTextAreaInput{
+    font-size: 30x;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+.writeTextAreaInput:focus{
+    outline: none;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+.writeInput:focus{
+    outline: none;
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgray;
+}
+.writeText{
+    font-size: 20px;
+    height: 30vh;
+    /* margin-left: 87px; */
+}

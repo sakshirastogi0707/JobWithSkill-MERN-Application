@@ -1,0 +1,43 @@
+.Contact {
+  display: flex;
+}
+.contactWrapper{
+    flex: 9;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.contactTitle {
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  margin-top: 50px;
+}
+.contactUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: lightcoral;
+font-family: 'lora', serif;
+
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.ContactForm > label{
+font-size: 20px;
+margin-top: 10px;
+font-family: 'lora', serif;
+
+}
+.ContactForm > input{
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+}
+ 
